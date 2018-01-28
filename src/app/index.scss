@@ -1,0 +1,26 @@
+// just a dummy class for sass-loader to work
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+td,
+th {
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.error {
+  color: red;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

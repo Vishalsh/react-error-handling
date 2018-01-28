@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "code": 1,
+      "name": "Pants",
+      "attributes": {
+        "color": "blue",
+        "size": 34,
+        "brand": "wrangler"
+      },
+      "price": "$50"
+    },
+    {
+      "code": 2,
+      "name": "Round Neck Tshirt",
+      "attributes": {
+        "color": "Red",
+        "size": 42,
+        "brand": "Puma"
+      },
+      "price": "$30"
+    },
+    {
+      "code": 3,
+      "name": "Shirt",
+      "attributes": {
+        "color": "white",
+        "size": 40,
+        "brand": "wrangler"
+      },
+      "price": "$40"
+    }
+  ],
+
+  "warehouses": [
+    {
+      "city": "Pune",
+      "products": [
+        "Pants", "Round Neck Tshirt"
+      ]
+    },
+    {
+      "city": "Bangalore",
+      "products": [
+        "Pants", "Shirt"
+      ]
+    }
+  ]
+}
